@@ -1,0 +1,14 @@
+# .vs は Visual Studio が使う IDE専用の一時フォルダで、通常は Git 管理対象にすべきではありません。
+.vs/
+
+#下記も（毎回変わる。Gitで管理すると差分が膨大になる。ビルドごとに変化。不要な差分や競合の原因になる）
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.dbmdl
+*.DS_Store
+*.swp
