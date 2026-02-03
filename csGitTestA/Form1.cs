@@ -19,7 +19,7 @@ namespace csGitTestA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello, World!"); // 新規追加
+            MessageBox.Show("Hello, World!!"); // 新規追加
         }
     }
 }
