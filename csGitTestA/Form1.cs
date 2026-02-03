@@ -25,6 +25,12 @@ namespace csGitTestA
             MessageBox.Show("Hello, ワールド!!"); // 01で追加                                    01で変更
             MessageBox.Show("Hello, ワールド!!"); // 00で追加                                    01で変更
             MessageBox.Show("11111111111111111"); // 01で追加
+            MessageBox.Show("Hello, World!!"); // 新規追加                                       00で変更
+            MessageBox.Show("Hello, ワールド!!わーるど!!"); // 01で追加 → 01で変更 → 01で変更  00で変更
+            MessageBox.Show("Hello, ワールド!!"); // 01で追加 → 01で変更                        00で変更
+            MessageBox.Show("Hello, ワールド!!"); // 01で追加                                    00で変更
+            MessageBox.Show("Hello, ワールド!!"); // 00で追加                                    00で変更
+            MessageBox.Show("00000000000000000"); // 00で追加
         }
     }
 }
