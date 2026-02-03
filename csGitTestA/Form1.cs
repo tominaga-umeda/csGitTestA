@@ -20,8 +20,9 @@ namespace csGitTestA
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello, World!!"); // 新規追加
-            MessageBox.Show("Hello, ワールド!!"); // 01で追加 → 01で変更
+            MessageBox.Show("Hello, ワールド!!ワールド!!"); // 01で追加 → 01で変更 → 00で変更
             MessageBox.Show("Hello, ワールド!!"); // 01で追加
+            MessageBox.Show("Hello, ワールド!!"); // 00で追加
         }
     }
 }
